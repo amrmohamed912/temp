@@ -859,6 +859,11 @@ font-size: 40px;
     padding-top: 80px;
     padding-bottom: 10px;
 }
+@media (max-width:767px){
+    .quote h1{
+        padding-top: 30px;
+    }
+}
 .quote P{
     text-align: center;
     color: white;
@@ -937,7 +942,7 @@ font-size: 40px;
 .price .holder .col .third a{
     padding: 20px;
     border:1px solid var(--main-color) ;
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 .price .container > p{
@@ -976,7 +981,7 @@ font-size: 40px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 250px;
+    height: 230px;
     flex-wrap: wrap;
 }
 .email .container .in{
@@ -984,6 +989,7 @@ font-size: 40px;
     flex-direction: row;
     color: white;
     position: relative;
+    justify-content: space-evenly;
 }
 .email .container .in input{
     height: 50px;
@@ -1014,6 +1020,11 @@ font-size: 40px;
     line-height: 2;
     font-weight: 300;
     outline: none;
+}
+@media (max-width:767px){
+    .email .container  p{
+        text-align: center;
+    }
 }
 .email .container .in i{
     position: absolute;
